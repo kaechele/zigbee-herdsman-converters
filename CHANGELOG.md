@@ -1,5 +1,20 @@
 # Changelog
 
+## [18.4.1](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v18.4.0...v18.4.1) (2024-01-03)
+
+
+### Bug Fixes
+
+* **detect:** Detect `_TZ3000_ssp0maqm` as Woox R7052 ([#6817](https://github.com/Koenkk/zigbee-herdsman-converters/issues/6817)) ([43e9e24](https://github.com/Koenkk/zigbee-herdsman-converters/commit/43e9e24c44cc81828b960021f670b1a8ff88f8cd))
+* Disable unsupported `powerOnBehaviour` for Quotra B07JHL6DRV ([#6813](https://github.com/Koenkk/zigbee-herdsman-converters/issues/6813)) ([4c1d6c5](https://github.com/Koenkk/zigbee-herdsman-converters/commit/4c1d6c5546a8ee10ce92c05a50a70d29895d5a91))
+* Disable unsuppoted `powerOnBehaviour` for 43082 ([#6815](https://github.com/Koenkk/zigbee-herdsman-converters/issues/6815)) ([0673e92](https://github.com/Koenkk/zigbee-herdsman-converters/commit/0673e9273c24440b59c25c68617012e65b550356))
+* Don't fail configure when reading `startUpOnOff` fails https://github.com/Koenkk/zigbee2mqtt/issues/20526 ([0de716c](https://github.com/Koenkk/zigbee-herdsman-converters/commit/0de716c31bd420f7e53682df21eb1e4a16735bbd))
+* Fix IKEA E1743 battery % divided by 2 https://github.com/Koenkk/zigbee-herdsman-converters/commit/597599e7e41d3b882ca01e9834b4e2a5acba2d2d ([dfc62f1](https://github.com/Koenkk/zigbee-herdsman-converters/commit/dfc62f1c843dd1ecdf6e3309c2fc1b44222d6f5c))
+* Fix no electrical measurements for MakeGood MG-AUZG01 https://github.com/Koenkk/zigbee2mqtt/issues/20531 ([82afaaf](https://github.com/Koenkk/zigbee-herdsman-converters/commit/82afaafe198fbf4477b7bb4d008f77d1dbab086e))
+* **ignore:** `powerOnBehaviour` -&gt; `powerOnBehavior` https://github.com/Koenkk/zigbee-herdsman-converters/pull/6815 ([eef38b0](https://github.com/Koenkk/zigbee-herdsman-converters/commit/eef38b0c159d5ce052ca0dc4f1f26b32f649ae58))
+* **ignore:** fix 0673e9273c24440b59c25c68617012e65b550356 ([6fd241f](https://github.com/Koenkk/zigbee-herdsman-converters/commit/6fd241fb4bbac24620de7b887368d8fd161a6a28))
+* **ignore:** improve message of 0de716c ([91bad76](https://github.com/Koenkk/zigbee-herdsman-converters/commit/91bad76ae9f8af8ce50e48716c3c568a5eb6bff6))
+
 ## [18.4.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v18.3.0...v18.4.0) (2024-01-02)
 
 
